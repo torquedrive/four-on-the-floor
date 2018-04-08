@@ -53,14 +53,14 @@
 @include motion-ui-animations;
 
 body {
-    background: #b0d8bf;
+    background: #c2c2c2;
     color: #000;
 }
 
 .grid-container{
     //border: 1px solid red;
     max-width: 70rem;
-    //background: #5dc3dd;
+    background: #0e7539;
     //margin-top: 10px;
 }
 
@@ -69,12 +69,13 @@ body {
 .topbar-responsive {
     background: $topbar-responsive-bg;
     padding: 0.15rem 1.0rem;
+    margin-bottom: .2%;
     //remove border for production
     //border: 1px solid #000;
     //border-radius: 5px 5px;
 
     .topbar-responsive-logo {
-      color: #474229;
+      color: #fff;
       vertical-align: middle;
       font-family: 'Gruppo', cursive;
       font-size: 30px;
@@ -89,7 +90,7 @@ body {
 
       a {
         font-size: 14px;
-        color: $black;
+        color: #fff;
         transition: color 0.15s ease-in;
 
         &:hover {
@@ -227,7 +228,7 @@ body {
   color: #fff;
   text-shadow: 1px 1px 2px #000000;
   font-size: 18px;
-  background: #888;
+  background: #888282;
   opacity: 0.80;
 }
 
@@ -236,7 +237,7 @@ body {
 // -- Maininfo Section --
 
 .main-info {
-  //background: #000;
+  background: #bbbbbb;
   //font-size: 20px;
   //color: red;
   margin-bottom: 10px;
@@ -263,7 +264,7 @@ body {
 }
 
 .main-body{
-  background: #9cad86;
+  //background: #9cad86;
   margin-top: 3%;
   padding-left: 10px;
   border-radius: 10px;
@@ -301,6 +302,7 @@ body {
 
 .article-row-img img {
   width: 100%;
+  border-radius: 45%;
 
   @include breakpoint(medium) {
     max-width: none;
@@ -310,7 +312,7 @@ body {
 
 .article-row-content {
   padding: 1.5rem 0 0 1.5rem;
-  color: #fff;
+  color: #000;
 
   @include breakpoint(medium) {
     padding: 0 0 0 1.5rem;
