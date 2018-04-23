@@ -318,7 +318,6 @@ body {
     }
   }
 
-<<<<<<< HEAD
   .orbit-slide {
     padding-bottom: 40%;
     background: $black;
@@ -371,37 +370,6 @@ body {
 
       &.is-active {
         background-color: $clean-hero-slider-accent;
-=======
-  @keyframes fadeIn {
-    from {
-      opacity:0;
-    } to {
-      opacity:1;
-    }
-  }
-
-  @keyframes slideDown {
-    0% {
-      transform: translateY(-100%);
-    }
-    100% {
-      transform: translateY(0%);
-    }
-  }
-
-  @include breakpoint(small only) {
-    .topbar-responsive-links {
-      animation-fill-mode: both;
-      animation-duration: 0.5s;
-      width: 100%;
-
-      @if $topbar-responsive-animation-type == slide-down {
-        animation: slideDown 1s ease-in;
-      } @else if $topbar-responsive-animation-type == fade-in {
-        animation: fadeIn 1s ease-in;
-      } @else {
-        animation: none;
->>>>>>> 748b96fc98ab6b893d8a569b7de9c306878098f4
       }
     }
   }
