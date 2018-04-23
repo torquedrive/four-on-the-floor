@@ -282,7 +282,11 @@ $button-font-family: inherit;
 $button-padding: 0.85em 1em;
 $button-margin: 0 0 $global-margin 0;
 $button-fill: solid;
+<<<<<<< HEAD
 $button-background: #5a3e00;
+=======
+$button-background: $primary-color;
+>>>>>>> 748b96fc98ab6b893d8a569b7de9c306878098f4
 $button-background-hover: scale-color($button-background, $lightness: -15%);
 $button-color: $white;
 $button-color-alt: $black;
@@ -464,6 +468,10 @@ $label-radius: $global-radius;
 $mediaobject-margin-bottom: $global-margin;
 $mediaobject-section-padding: $global-padding;
 $mediaobject-image-width-stacked: 100%;
+<<<<<<< HEAD
+=======
+$marketing-site-hero-height: 65vh;
+>>>>>>> 748b96fc98ab6b893d8a569b7de9c306878098f4
 
 // 23. Menu
 // --------
@@ -845,14 +853,25 @@ $tooltip-radius: $global-radius;
 // 55. Top Bar
 // -----------
 
+<<<<<<< HEAD
 $topbar-responsive-bg: #5a3e00;
 $topbar-responsive-animation-type: fade-in; // or use slide-down or none
 $topbar-padding: 0.5rem;
 $topbar-background: $light-gray;
+=======
+$topbar-padding: 0.5rem;
+$topbar-background: $black;
+>>>>>>> 748b96fc98ab6b893d8a569b7de9c306878098f4
 $topbar-submenu-background: $topbar-background;
 $topbar-title-spacing: 0.5rem 1rem 0.5rem 0;
 $topbar-input-width: 200px;
 $topbar-unstack-breakpoint: medium;
+<<<<<<< HEAD
+=======
+$topbar-responsive-bg: #055015;
+$topbar-responsive-animation-type: slide-down;
+// or use slide-down or none
+>>>>>>> 748b96fc98ab6b893d8a569b7de9c306878098f4
 
 // 56. Xy Grid
 // -----------
@@ -869,6 +888,7 @@ $grid-container-padding: $grid-padding-gutters;
 $grid-container-max: $global-width;
 $xy-block-grid-max: 8;
 
+<<<<<<< HEAD
 // 57. Hero Section
 // ------------------
 
@@ -885,3 +905,9 @@ $marketing-site-three-up-width: 900px;
 $marketing-site-footer-bg: #5a3e00;
 
 
+=======
+//  57. Footer
+//  ----------
+
+$marketing-site-footer-bg: #000;
+>>>>>>> 748b96fc98ab6b893d8a569b7de9c306878098f4

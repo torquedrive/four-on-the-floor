@@ -22,12 +22,18 @@ Using this framework is easy. Here's how your code will look when you use a seri
 
 ```html
 <div class="grid-x">
+<<<<<<< HEAD
   <div class="cell small-6 medium-4 large-3">...</div>
   <div class="cell small-6 medium-8 large-9">...</div>
+=======
+  <div class="small-6 medium-4 large-3 cell">...</div>
+  <div class="small-6 medium-8 large-9 cell">...</div>
+>>>>>>> 748b96fc98ab6b893d8a569b7de9c306878098f4
 </div>
 ```
 
 <div class="grid-x display">
+<<<<<<< HEAD
   <div class="cell small-12 large-4">4</div>
   <div class="cell small-12 large-4">4</div>
   <div class="cell small-12 large-4">4</div>
@@ -57,6 +63,37 @@ Using this framework is easy. Here's how your code will look when you use a seri
 <div class="grid-x display">
   <div class="cell small-12 large-6">6</div>
   <div class="cell small-12 large-6">6</div>
+=======
+  <div class="small-12 large-4 cell">4</div>
+  <div class="small-12 large-4 cell">4</div>
+  <div class="small-12 large-4 cell">4</div>
+</div>
+<div class="grid-x display">
+  <div class="small-12 large-3 cell">3</div>
+  <div class="small-12 large-6 cell">6</div>
+  <div class="small-12 large-3 cell">3</div>
+</div>
+<div class="grid-x display">
+  <div class="small-12 large-2 cell">2</div>
+  <div class="small-12 large-8 cell">8</div>
+  <div class="small-12 large-2 cell">2</div>
+</div>
+<div class="grid-x display">
+  <div class="small-12 large-3 cell">3</div>
+  <div class="small-12 large-9 cell">9</div>
+</div>
+<div class="grid-x display">
+  <div class="small-12 large-4 cell">4</div>
+  <div class="small-12 large-8 cell">8</div>
+</div>
+<div class="grid-x display">
+  <div class="small-12 large-5 cell">5</div>
+  <div class="small-12 large-7 cell">7</div>
+</div>
+<div class="grid-x display">
+  <div class="small-12 large-6 cell">6</div>
+  <div class="small-12 large-6 cell">6</div>
+>>>>>>> 748b96fc98ab6b893d8a569b7de9c306878098f4
 </div>
 
 ---
@@ -67,6 +104,7 @@ In the Grid you can nest cells down as far as you'd like. Just embed grid-x insi
 
 ```html
 <div class="grid-x">
+<<<<<<< HEAD
   <div class="cell small-8">8
     <div class="grid-x">
       <div class="cell small-8">8 Nested
@@ -79,10 +117,25 @@ In the Grid you can nest cells down as far as you'd like. Just embed grid-x insi
     </div>
   </div>
   <div class="cell small-4">4</div>
+=======
+  <div class="small-8 cell">8
+    <div class="grid-x">
+      <div class="small-8 cell">8 Nested
+        <div class="grid-x">
+          <div class="small-8 cell">8 Nested Again</div>
+          <div class="small-4 cell">4</div>
+        </div>
+      </div>
+      <div class="small-4 cell">4</div>
+    </div>
+  </div>
+  <div class="small-4 cell">4</div>
+>>>>>>> 748b96fc98ab6b893d8a569b7de9c306878098f4
 </div>
 ```
 
 <div class="grid-x display">
+<<<<<<< HEAD
   <div class="cell small-8">8
     <div class="grid-x">
       <div class="cell small-8">8 Nested
@@ -95,6 +148,20 @@ In the Grid you can nest cells down as far as you'd like. Just embed grid-x insi
     </div>
   </div>
   <div class="cell small-4">4</div>
+=======
+  <div class="small-8 cell">8
+    <div class="grid-x">
+      <div class="small-8 cell">8 Nested
+        <div class="grid-x">
+          <div class="small-8 cell">8 Nested Again</div>
+          <div class="small-4 cell">4</div>
+        </div>
+      </div>
+      <div class="small-4 cell">4</div>
+    </div>
+  </div>
+  <div class="small-4 cellgi">4</div>
+>>>>>>> 748b96fc98ab6b893d8a569b7de9c306878098f4
 </div>
 
 ---
@@ -105,22 +172,40 @@ As you've probably noticed in the examples above, you have access to a small, me
 
 ```html
 <div class="grid-x">
+<<<<<<< HEAD
   <div class="cell small-2">2</div>
   <div class="cell small-10">10, last</div>
 </div>
 <div class="grid-x">
   <div class="cell small-3">3</div>
   <div class="cell small-9">9, last</div>
+=======
+  <div class="small-2 cell">2</div>
+  <div class="small-10 cell">10, last</div>
+</div>
+<div class="grid-x">
+  <div class="small-3 cell">3</div>
+  <div class="small-9 cell">9, last</div>
+>>>>>>> 748b96fc98ab6b893d8a569b7de9c306878098f4
 </div>
 ```
 
 <div class="grid-x display">
+<<<<<<< HEAD
   <div class="cell small-2">2</div>
   <div class="cell small-10">10, last</div>
 </div>
 <div class="grid-x display">
   <div class="cell small-3">3</div>
   <div class="cell small-9">9, last</div>
+=======
+  <div class="small-2 cell">2</div>
+  <div class="small-10 cell">10, last</div>
+</div>
+<div class="grid-x display">
+  <div class="small-3 cell">3</div>
+  <div class="small-9 cell">9, last</div>
+>>>>>>> 748b96fc98ab6b893d8a569b7de9c306878098f4
 </div>
 
 
@@ -131,32 +216,53 @@ As you've probably noticed in the examples above, you have access to a small, me
 
 ---
 
+<<<<<<< HEAD
 <div class="grid-x up-1 medium-up-3 large-up-5">
   <div class="cell">
+=======
+<div class="row up-1 medium-up-3 large-up-5">
+  <div class="column">
+>>>>>>> 748b96fc98ab6b893d8a569b7de9c306878098f4
     <div class="color-block">
       <span style="background: #2199e8"></span>
       #2199e8
     </div>
   </div>
+<<<<<<< HEAD
   <div class="cell">
+=======
+  <div class="column">
+>>>>>>> 748b96fc98ab6b893d8a569b7de9c306878098f4
     <div class="color-block">
       <span style="background: #3adb76"></span>
       #3adb76
     </div>
   </div>
+<<<<<<< HEAD
   <div class="cell">
+=======
+  <div class="column">
+>>>>>>> 748b96fc98ab6b893d8a569b7de9c306878098f4
     <div class="color-block">
       <span style="background: #ffae00"></span>
       #ffae00
     </div>
   </div>
+<<<<<<< HEAD
   <div class="cell">
+=======
+  <div class="column">
+>>>>>>> 748b96fc98ab6b893d8a569b7de9c306878098f4
     <div class="color-block">
       <span style="background: #ec5840"></span>
       #ec5840
     </div>
   </div>
+<<<<<<< HEAD
   <div class="cell">
+=======
+  <div class="column">
+>>>>>>> 748b96fc98ab6b893d8a569b7de9c306878098f4
     <div class="color-block">
       <span style="background: #0a0a0a"></span>
       #0a0a0a
@@ -290,12 +396,18 @@ Form elements in Foundation are styled based on their type attribute rather than
 
 ```html_example
 <form>
+<<<<<<< HEAD
   <div class="grid-x">
     <div class="cell large-12">
+=======
+  <div class="row">
+    <div class="large-12 columns">
+>>>>>>> 748b96fc98ab6b893d8a569b7de9c306878098f4
       <label>Label</label>
       <input type="text" placeholder="placeholder">
     </div>
   </div>
+<<<<<<< HEAD
   <div class="grid-x grid-margin-x">
     <div class="cell large-6">
       <label>Label</label>
@@ -303,11 +415,21 @@ Form elements in Foundation are styled based on their type attribute rather than
     </div>
     <div class="cell large-6">
 
+=======
+  <div class="row">
+    <div class="large-6 columns">
+      <label>Label</label>
+      <input type="text" placeholder="placeholder">
+    </div>
+    <div class="large-6 columns">
+      <div class="row collapse">
+>>>>>>> 748b96fc98ab6b893d8a569b7de9c306878098f4
         <label>Label</label>
         <div class="input-group">
           <input class="input-group-field" type="text" placeholder="placeholder">
           <span class="input-group-label">.com</span>
         </div>
+<<<<<<< HEAD
 
     </div>
   </div>
@@ -316,25 +438,49 @@ Form elements in Foundation are styled based on their type attribute rather than
       <label>Select Box</label>
       <select>
         <option value="good">Go od</option>
+=======
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-12 columns">
+      <label>Select Box</label>
+      <select>
+        <option value="good">Good</option>
+>>>>>>> 748b96fc98ab6b893d8a569b7de9c306878098f4
         <option value="better">Better</option>
         <option value="best">Best</option>
       </select>
     </div>
   </div>
+<<<<<<< HEAD
   <div class="grid-x">
     <div class="cell large-6">
+=======
+  <div class="row">
+    <div class="large-6 columns">
+>>>>>>> 748b96fc98ab6b893d8a569b7de9c306878098f4
       <label>Choose Your Favorite</label>
       <input type="radio" name="radio1" value="radio1" id="radio1"><label for="radio1">Red</label>
       <input type="radio" name="radio2" value="radio2" id="radio2"><label for="radio2">Blue</label>
     </div>
+<<<<<<< HEAD
     <div class="cell large-6">
+=======
+    <div class="large-6 columns">
+>>>>>>> 748b96fc98ab6b893d8a569b7de9c306878098f4
       <label>Check these out</label>
       <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
       <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
     </div>
   </div>
+<<<<<<< HEAD
   <div class="grid-x">
     <div class="cell large-12">
+=======
+  <div class="row">
+    <div class="large-12 columns">
+>>>>>>> 748b96fc98ab6b893d8a569b7de9c306878098f4
       <label>Textarea Label</label>
       <textarea placeholder="placeholder"></textarea>
     </div>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ZURB Template
 
 [![devDependency Status](https://david-dm.org/zurb/foundation-zurb-template/dev-status.svg)](https://david-dm.org/zurb/foundation-zurb-template#info=devDependencies)
@@ -68,3 +69,8 @@ http://localhost:8000
 ```
 
 To create compressed, production-ready assets, run `npm run build`.
+=======
+# Four on the floor veterinary clinic site
+
+Building this site with foundation6.
+>>>>>>> 748b96fc98ab6b893d8a569b7de9c306878098f4
