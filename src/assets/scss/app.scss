@@ -58,7 +58,7 @@
 }
 
 body {
-    background: #fff;
+    background: #94702d;
 }
 
 
@@ -471,6 +471,10 @@ $about-the-author-separator-thickness: 0.125rem;
 .article-row-section {
   @include flex-grid-row(null, $global-width, 12);
   justify-content: center;
+  background: #fff;
+  margin-bottom: 30px;
+  border-radius: 5px 5px;
+
 }
 
 .article-row-section-inner {
@@ -490,7 +494,7 @@ $about-the-author-separator-thickness: 0.125rem;
 .article-row {
   display: flex;
   flex-direction: column;
-  border-top: 1px solid $light-gray;
+  //border-top: 1px solid $light-gray;
   padding: 1.5rem 0;
 
    @include breakpoint(medium) {
@@ -517,11 +521,13 @@ $about-the-author-separator-thickness: 0.125rem;
 }
 
 .article-row-content-header {
-  font-size: 1.5rem;
+  font-size: 1.15rem;
+  font-weight: bold;
+  color: #523801;
 }
 
 .article-row-content-description {
-  font-size: 1.25rem;
+  font-size: 1.0rem;
 }
 
 .article-row-content-author,
