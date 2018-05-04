@@ -58,10 +58,15 @@
 }
 
 body {
-    background: #94702d;
+   // background: #94702d;
+   background: #fff;
 }
 
-
+.top-bar {
+  ul {
+    color: #fff;
+  }
+}
 
 
 .topbar-responsive {
@@ -71,7 +76,7 @@ body {
   .topbar-responsive-logo {
     font-family: 'Gruppo', cursive;
     font-size: 1.6rem;
-    color: #fff;
+    color: #5a3e00;
     vertical-align: middle;
   }
 
@@ -83,7 +88,7 @@ body {
     }
 
     a {
-      color: #fff;
+      color: #5a3e00;
       transition: color 0.15s ease-in;
 
       &:hover {
@@ -96,14 +101,15 @@ body {
     }
 
     .topbar-responsive-button {
-      color: $white;
+      color: #5a3e00;
       border-color: $white;
       border-radius: 5000px;
       transition: color 0.15s ease-in, border-color 0.15s ease-in;
 
       &:hover {
-        color: lighten($topbar-responsive-bg, 60%);
-        border-color: lighten($topbar-responsive-bg, 60%);
+       // color: lighten($topbar-responsive-bg, 60%);
+       // border-color: lighten($topbar-responsive-bg, 60%);
+       color: #000;
       }
 
       @media screen and (max-width: 39.9375em) {
@@ -348,10 +354,11 @@ $clean-hero-slider-accent: $warning-color;
 
 
 .marketing-site-three-up {
-  background: #fff;
+  //background: #fff;
   color: #fff;
   text-align: center;
-  padding: 2rem 0;
+  padding: .75rem 0;
+  margin-top: 40px;
   margin-bottom: 20px;
 
   .row {
