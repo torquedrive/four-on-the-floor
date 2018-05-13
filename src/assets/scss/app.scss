@@ -287,12 +287,16 @@ $clean-hero-slider-accent: $warning-color;
   }
 
   ul.orbit-container {
-    height: none !important;
+    height: 450px;
   }
 
   li.orbit-slide {
-    max-height: none !important;
+    max-height: 450px;
   }
+}
+
+.orbit-image {
+  height: 450px;
 }
 
 /*
