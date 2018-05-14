@@ -282,7 +282,7 @@ $button-font-family: inherit;
 $button-padding: 0.85em 1em;
 $button-margin: 0 0 $global-margin 0;
 $button-fill: solid;
-$button-background: #523801;
+$button-background: #3f750c;
 $button-background-hover: scale-color($button-background, $lightness: -15%);
 $button-color: $white;
 $button-color-alt: $black;
@@ -845,7 +845,7 @@ $tooltip-radius: $global-radius;
 // 55. Top Bar
 // -------------
 
-$topbar-responsive-bg: #fff;
+$topbar-responsive-bg: #acd888;
 $topbar-responsive-animation-type: fade-in; // or use slide-down or none
 $topbar-padding: 0.5rem;
 $topbar-background: $light-gray;
@@ -882,6 +882,6 @@ $marketing-site-three-up-width: 900px;
 // 59. Footer
 // ---------------
 
-$marketing-site-footer-bg: #5a3e00;
+$marketing-site-footer-bg: #acd888;
 
 

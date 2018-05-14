@@ -76,8 +76,9 @@ body {
 
   .topbar-responsive-logo {
     font-family: 'Gruppo', cursive;
-    font-size: 1.6rem;
-    color: #5a3e00;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #3f750c;
     vertical-align: middle;
   }
 
@@ -89,7 +90,7 @@ body {
     }
 
     a {
-      color: #5a3e00;
+      color: #3f750c;
       transition: color 0.15s ease-in;
 
       &:hover {
@@ -178,13 +179,13 @@ body {
 }
 
 
-$clean-hero-slider-accent: $warning-color;
+$clean-hero-slider-accent: #baff79;
 
 .clean-hero-slider {
   .orbit-caption {
     width: auto;
     height: auto;
-    background: $black;
+    background: #acd888;
     position: absolute;
     text-align: center;
     right: 0;
@@ -211,6 +212,7 @@ $clean-hero-slider-accent: $warning-color;
     p {
       font-size: 0.9rem;
       line-height: 1.25;
+      color: #baff79;
 
       @include breakpoint(medium) {
         font-size: 1.1rem;
@@ -287,11 +289,11 @@ $clean-hero-slider-accent: $warning-color;
   }
 
   ul.orbit-container {
-    height: 450px;
+    height: none !important;
   }
 
   li.orbit-slide {
-    max-height: 450px;
+    max-height: none !important;
   }
 }
 
@@ -360,7 +362,7 @@ $clean-hero-slider-accent: $warning-color;
 
 .marketing-site-three-up {
   //background: #fff;
-  color: #fff;
+  color: #3f750c;
   text-align: center;
   padding: .75rem 0;
   margin-top: 40px;
@@ -371,11 +373,11 @@ $clean-hero-slider-accent: $warning-color;
   }
 
   .columns {
-    background: #5a3e00;
+    background: #acd888;
     margin-bottom: 1rem;
     margin-right: 5px;
     padding: 10px;
-    border: 1px solid #e2a83b;
+    border: 1px solid #3f750c;
     border-radius: 10px 10px;
 
     @media screen and (min-width: 40em) {
@@ -486,6 +488,7 @@ $about-the-author-separator-thickness: 0.125rem;
   background: #fff;
   margin-bottom: 30px;
   border-radius: 5px 5px;
+  border: 1px solid #3f750c;
 
 }
 
@@ -535,7 +538,7 @@ $about-the-author-separator-thickness: 0.125rem;
 .article-row-content-header {
   font-size: 1.15rem;
   font-weight: bold;
-  color: #523801;
+  color: #3f750c;
 }
 
 .article-row-content-description {
@@ -579,11 +582,11 @@ $about-the-author-separator-thickness: 0.125rem;
 
 .marketing-site-footer {
   background: $marketing-site-footer-bg;
-  color: #fff;
+  color: #3f750c;
   padding: 2rem 0 0;
 
   .marketing-site-footer-menu-social a {
-    color: $white;
+    color: #3f750c;
   }
 
   .column-block {
@@ -602,13 +605,13 @@ $about-the-author-separator-thickness: 0.125rem;
 }
 
 .marketing-site-footer-name {
-  color: #fff;
+  color: #3f750c;
   margin-bottom: 1rem;
   font-size: 1.5rem;
 }
 
 .marketing-site-footer-title {
-  color: #fff;
+  color: #3f750c;
   margin-bottom: 1rem;
   font-size: 1.25rem;
 }
@@ -629,9 +632,9 @@ $about-the-author-separator-thickness: 0.125rem;
 }
 
 .marketing-site-footer-bottom {
-  background: #5a3e00;
+  background: #acd888;
   padding: 1rem 0;
-  border-top: 1px solid #e2a83b;
+  border-top: 1px solid #3f750c;
 
   p,
   .menu {
@@ -642,7 +645,7 @@ $about-the-author-separator-thickness: 0.125rem;
     justify-content: flex-end;
 
     a {
-      color: #fff;
+      color: #3f750c;
     }
 
     @include breakpoint(medium down) {
